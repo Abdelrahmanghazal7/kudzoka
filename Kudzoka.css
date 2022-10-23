@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nv {
+    display: flex;
+    align-items: center;
+    margin: 50px 120px;
+}
+
+.link {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: normal;
+}
+
+input[type="submit"] {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: white;
+    border: none;
+}
+
+.back {
+    position: absolute;
+    bottom: 70px;
+    z-index: -1;
+}
+
+header {
+    margin-top: -90px;
+}
+
+.hd {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.text {
+    margin: 210px 800px 0 0;
+
+}
+
+.home {
+    border-bottom: 3px solid rgba(114, 41, 182, 0.651);
+}
+
+.pics {
+    margin: -320px 0 0 900px;
+}
+
+.img1 {
+    position: absolute;
+    right: 1%;
+}
+
+.img2 {
+    position: absolute;
+    left: 60%;
+}
+
+.img3 {
+    position: absolute;
+    right: 150px;
+    margin-top: 460px;
+}
+
+.img4 {
+    position: absolute;
+    bottom: -10px;
+    right: 20%;
+    z-index: -1;
+}
+
+.one {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+span {
+    color: rgba(114, 41, 182, 0.651);
+}
+
+.two {
+    font-size: 20px;
+    color: gray;
+}
+
+.deliver {
+    display: flex;
+    margin: 300px 100px;
+}
+
+.del {
+    padding: 7%;
+}
+
+.line {
+    position: absolute;
+    left: 350px;
+    margin-top: -50px;
+    z-index: -1;
+}
+
+.olin {
+    position: absolute;
+    right: 30%;
+    bottom: -65%;
+}
+
+.real {
+    position: absolute;
+    bottom: -520px;
+    right: 400px;
+    text-align: center;
+    color: #363535;
+
+}
+
+.super {
+    position: absolute;
+    bottom: -420px;
+    left: 200px;
+    color: #363535;
+    text-align: center;
+}
+
+.dis {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 27%;
+}
+
+.mego {
+    position: absolute;
+    left: 11%;
+    margin-top: -150px;
+}
+
+.why {
+    position: absolute;
+    left: 230px;
+    margin-top: -40px;
+    color: white;
+    font-size: 35px;
+}
+
+.count {
+    position: absolute;
+    right: 10%;
+    margin-top: -150px;
+}
+
+.ts {
+    text-align: center;
+    color: #363535;
+    padding-top: 20px;
+}
+
+.fa-solid {
+    color: black;
+}
+
+.fin {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.side {
+    margin-top: 150px;
+}
+
+footer {
+    margin-top: -90px;
+    height: 600px;
+    overflow-y: hidden;
+}
+
+.background {
+    width: 120%;
+    height: 110%;
+    object-fit: cover;
+    margin-left: -100px;
+    margin-top: 90px;
+    z-index: -1;
+}
+
+.per {
+    position: absolute;
+    left: 45%;
+    margin-top: -603px;
+}
+
+.tton {
+    position: absolute;
+    left: 200px;
+    margin-top: -350px;
+}
+
+.blac {
+    margin: 10px;
+}
+
+.hrf a {
+    color: white;
+    margin: 10px;
+}
+
+.put {
+    display: flex;
+}
+
+.put h5 {
+    font-size: 10px;
+}
+
+.put h1 {
+    font-size: 15px;
+}
+
+.sr {
+    margin-left: 10px;
+}
+
+button {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    border: none;
+}
